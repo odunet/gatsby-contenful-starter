@@ -43,6 +43,7 @@
   },
   "scripts": {
     "dev": "gatsby develop",
+    "clean": "gatsby clean",
     "build": "gatsby build",
     "heroku-postbuild": "gatsby build",
     "serve": "gatsby serve",
