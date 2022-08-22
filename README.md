@@ -62,3 +62,12 @@ See the [official Contentful getting started guide](https://www.contentful.com/d
 Feel free to open pull requests to fix bugs. If you want to add features, please have a look at the [original version](https://github.com/contentful-userland/gatsby-contentful-starter). It is always open to contributions and pull requests.
 
 You can learn more about how Contentful userland is organized by visiting [our about repository](https://github.com/contentful-userland/about).
+
+
+## Command
+- export ENABLE_GATSBY_REFRESH_ENDPOINT=true && npm run dev
+- curl -X POST http://localhost:8000/__refresh 
+
+## Important gatsby files
+- dist/utils/source-node.js
+- dist/redux/reducers/inference-metadata.js/incrementalReducer
