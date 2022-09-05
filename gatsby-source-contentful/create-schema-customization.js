@@ -114,6 +114,9 @@ async function createSchemaCustomization({
       reporter,
       pluginConfig
     });
+    console.log('$$$$$$$$$$$$$$$$$$$$$$$$-Outside worker data');
+    console.log(contentTypeItems);
+    console.log('$$$$$$$$$$$$$$$$$$$$$$$$-Outside worker data');
   }
 
   const {
