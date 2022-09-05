@@ -115,7 +115,7 @@ async function createSchemaCustomization({
       pluginConfig
     });
     console.log('$$$$$$$$$$$$$$$$$$$$$$$$-Outside worker data');
-    console.log(contentTypeItems);
+    console.log(process.env);
     console.log('$$$$$$$$$$$$$$$$$$$$$$$$-Outside worker data');
   }
 
