@@ -13,7 +13,7 @@
     "gatsby-plugin-image": "^2.0.0",
     "gatsby-plugin-react-helmet": "^5.0.0",
     "gatsby-plugin-sharp": "^4.0.0",
-    "gatsby-source-contentful": "^7.0.0",
+    "gatsby-source-contentful": "file:./gatsby-source-contentful",
     "gatsby-transformer-sharp": "^4.0.0",
     "gh-pages": "^3.1.0",
     "lodash": "^4.17.21",
@@ -23,8 +23,7 @@
     "reading-time": "^2.0.0-1"
   },
   "devDependencies": {
-    "contentful-import": "^8.0.0",
-    "netlify-cli": "^10.0.0"
+    "contentful-import": "^8.0.0"
   },
   "engines": {
     "node": ">=14.0.0"
